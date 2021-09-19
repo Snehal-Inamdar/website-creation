@@ -1,2 +1,3 @@
-# website-creation
+# GOLDAN_HORIZON_BANK
 BASIC BANK TRANSACTION
+Created simple banking system using HTML,CSS and JAVASCRIPT
