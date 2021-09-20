@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:  rgba(244, 208, 63, 1) ; */
+    background: linear-gradient(aqua, white);
+    background-repeat: no-repeat;
+  }
+  
+  
+  #main{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+  }
+  
+  .nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #034929;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-right: 60%;
+  }
+  
+  
+  .logo img{
+    height: 110px;
+    filter: invert(100%);
+    margin-left: 100%;
+  }
+  
+  .menu{
+    list-style: none;
+    display: contents;
+    margin-left: 65%;
+  }
+  
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 2px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  .image img{
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 0 1px rgba(5, 5, 5, 0.3);
+    padding-top: 40px;
+  }
+  
+  .main-content{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+  }
+  
+  .heading{
+    color:#ac22ac ;
+    font-family: 'Calibary,Arial, Helvetica';
+    font-style: inherit;
+    margin-left: 2%;
+    font-size: 50px;
+  }
+  
+  
+  .line{
+    color:#3b333b;
+    font-family: 'Calibary,Arial, Helvetica',cursive;
+    font-size: 1.1rem;
+    margin-left: 2%; 
+  }
+  
+  
+  
+  
+  .start{
+    font-family: 'Calibary,Reggae One', cursive;
+    background-color: white ;
+    color: rgb(128, 0, 0);
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid indigo;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-left: 10%;
+  }
+  
+  .start:hover{
+    background-color: rgb(0, 102, 128);
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  
+  .menu li a:hover{
+    background-color:aqua;
+    color:  #1A2421;
+    font-weight: bolder;
+    cursor: pointer;
+  }
